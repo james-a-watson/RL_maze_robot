@@ -1,0 +1,11 @@
+# Core framework (rl.core, rl.linear) and result plots
+numpy>=1.21
+matplotlib>=3.5
+
+# Model 2 only (rl.deep, the Actor-Critic network)
+tensorflow>=2.10
+
+# Running the robot in simulation additionally needs ROS 2 and Gazebo, which
+# are not pip-installable. See the README for those. The following are pulled
+# in with a ROS 2 install rather than from PyPI:
+#   rclpy, std_srvs, gazebo_msgs, geometry_msgs, sensor_msgs, nav_msgs

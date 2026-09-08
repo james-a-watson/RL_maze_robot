@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Trained models and Keras weight checkpoints (not tracked; regenerate by training)
+saved_models/
+*.pkl
+/V.*
+/Q.*
+checkpoint
+
+# Environments
+.venv/
+venv/

@@ -1,0 +1,18 @@
+This project includes third-party material that is not covered by the MIT
+license in LICENSE:
+
+1. turtlebot3_assessment2/  (Gazebo launch files and world/robot models)
+   Copyright 2019 ROBOTIS CO., LTD.
+   Licensed under the Apache License, Version 2.0.
+   http://www.apache.org/licenses/LICENSE-2.0
+   These files are derived from the TurtleBot3 simulation packages and were
+   adapted to describe the maze environment used here. The original Apache-2.0
+   copyright headers are retained in each file.
+
+2. The euler_from_quaternion() helper in maze_navigation.ipynb is adapted from
+   a public gist by "salmagro":
+   https://gist.github.com/salmagro/2e698ad4fbf9dae40244769c5ab74434
+
+Everything else — the reinforcement-learning package (rl/), the environment
+and agent code in the notebook, the reward design, experiments and results —
+is original work under the MIT license.
